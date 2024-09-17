@@ -28,7 +28,7 @@ export const User = () => {
         }
     };
 
-    return <div>
+    return <div className="container" >
         <form onSubmit={handleSubmit(handleUpdateUser)}>
             <input
                 type="text"
@@ -75,7 +75,7 @@ export const User = () => {
                 }
             />
             {errors.salary && <p style={{ color: "red" }} >{errors.salary.message}</p>}
-            <button>Add User</button>
+            <button>Update User</button>
 
         </form>
     </div>

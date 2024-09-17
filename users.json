@@ -1,18 +1,11 @@
 {
   "users": [
     {
-      "name": "Nare",
-      "surname": "Karapetyan",
-      "age": "20",
-      "salary": "20000",
-      "id": "3"
-    },
-    {
-      "id": "4",
       "name": "Narek",
       "surname": "Abrahamyan",
-      "age": 39,
-      "salary": 100000
+      "age": "39",
+      "salary": "100000",
+      "id": "4"
     },
     {
       "id": "5",
@@ -20,13 +13,6 @@
       "surname": "Vardanyan",
       "age": 26,
       "salary": 679000
-    },
-    {
-      "id": "3529",
-      "name": "Anush",
-      "surname": "Mnacakanyan",
-      "age": "16",
-      "salary": "240000"
     }
   ]
 }

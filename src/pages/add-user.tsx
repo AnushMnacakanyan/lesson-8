@@ -12,7 +12,7 @@ export const AddUser = () => {
         await createAddUser(data)
         navigate("/")
     }
-    return <div>
+    return <div className="container">
         <form onSubmit={handleSubmit(handleAddUser)}>
             <input
                 type="text"

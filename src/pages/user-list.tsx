@@ -19,10 +19,10 @@ export const UserList = () => {
         setUsers([...users.filter(user => user.id !== id)])
     }
 
-    return <div>
+    return <div className="container">
         {
             users.map(user =>
-                <div key={user.id}>
+                <div className="user-item" key={user.id}>
                     <h4>{user.name}</h4>
                     <h4>{user.surname}</h4>
                     <p>{user.age}</p>
